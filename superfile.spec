@@ -1,5 +1,5 @@
 Name:		superfile
-Version:	1.4.0
+Version:	1.5.0
 Release:	1
 Source0:	https://github.com/yorukot/superfile/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:    %{name}-%{version}-vendor.tar.gz
