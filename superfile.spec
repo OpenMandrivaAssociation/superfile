@@ -1,8 +1,8 @@
 Name:		superfile
-Version:	1.5.0
+Version:	1.6.0
 Release:	1
 Source0:	https://github.com/yorukot/superfile/archive/v%{version}/%{name}-%{version}.tar.gz
-Source1:    %{name}-%{version}-vendor.tar.gz
+Source1:    %{name}-%{version}-vendor.tar.xz
 Summary:	Pretty fancy and modern terminal file manager
 URL:		https://github.com/yorukot/superfile
 License:	MIT
@@ -16,7 +16,7 @@ BuildRequires:	go
 
 %prep
 %autosetup -p1
-tar -xvf %{S:1}
+tar -xf %{S:1}
 
 %build
 install -dm0755 %{buildroot}%{_bindir}
