@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:		superfile
-Version:	1.6.0
+Version:	1.6.1
 Release:	1
 Source0:	https://github.com/yorukot/superfile/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:    	%{name}-%{version}-vendor.tar.xz
